@@ -1,0 +1,41 @@
+/* Style du conteneur du formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style des étiquettes */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Pour inclure le padding et le border dans la largeur du champ */
+}
+
+/* Style du bouton de soumission */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style du bouton de soumission au survol */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style du titre */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
